@@ -7,7 +7,7 @@ wget https://raw.githubusercontent.com/popcornman209/ccRansomVirus/main/virus.lu
 virus.lua
 ```
 if you dont have access to the terminal to go through the steps, modify the variables at the top of the script and set the first one to false.
-#"backdoors"
+# "backdoors"
 not sure if that terminology is correct, but here are all of them
 ### rednet
 is activated by a device broadcasting a signal. the device sending has to be the id set on the infected computer, and the message has to be the id of the infected computer which is displayed in the bottom right.
