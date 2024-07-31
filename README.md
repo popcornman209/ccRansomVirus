@@ -1,5 +1,5 @@
 # popcornVirus
-this is a virus that disables all inputs and disk booting, and makes it impossible to remove without using any of the 3 unlock methods.
+this is a virus that disables all inputs and disk booting, its theoreticallt impossible to remove without server permisions, but you can enable 3 different unlock methods.
 # setup
 to install just run the below code on the device, it will bring you through the steps.
 ```
