@@ -93,10 +93,10 @@ function undo()
     fs.delete("startup.lua")
     fs.delete("virus.lua")
     fs.delete(".settings")
-    fs.delete("oldVFiles")
     if fs.exists("oldVFiles/.settings") then fs.move("oldVFiles/.settings",".settings") end
     if fs.exists("oldVFiles/startup") then fs.move("oldVFiles/startup","startup") end
     if fs.exists("oldVFiles/startup.lua") then fs.move("oldVFiles/startup.lua","startup.lua") end
+    fs.delete("oldVFiles")
     os.reboot()
 end
 
